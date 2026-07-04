@@ -4,8 +4,8 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/ecommerce
+      uri: ${SPRING_DATA_MONGODB_URI}
 
 jwt:
-  secret: "change-this-to-a-long-random-secret-value-in-production-please"
+  secret: ${JWT_SECRET}
   expiration-ms: 604800000   # 7 days
