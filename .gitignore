@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+
+# Java
+*.class
+out/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Vite
+dist/

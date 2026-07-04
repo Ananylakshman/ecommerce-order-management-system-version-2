@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ecommerce
+
+jwt:
+  secret: "change-this-to-a-long-random-secret-value-in-production-please"
+  expiration-ms: 604800000   # 7 days
